@@ -50,17 +50,17 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-rm -f $RPM_BUILD_ROOT%{perl_vendorarch}/%{pdir}/%{pnam}/*.pod
+rm -f $RPM_BUILD_ROOT%{perl_vendorarch}/Gnome2/Vte/*.pod
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_vendorarch}/%{pdir}/%{pnam}.pm
-%dir %{perl_vendorarch}/%{pdir}/%{pnam}
-%dir %{perl_vendorarch}/auto/%{pdir}/%{pnam}
-%attr(755,root,root) %{perl_vendorarch}/auto/%{pdir}/%{pnam}/*.so
-%{perl_vendorarch}/%{pdir}/%{pnam}/Install
-%{perl_vendorarch}/auto/%{pdir}/%{pnam}/*.bs
+%{perl_vendorarch}/Gnome2/Vte.pm
+%dir %{perl_vendorarch}/Gnome2/Vte
+%{perl_vendorarch}/Gnome2/Vte/Install
+%dir %{perl_vendorarch}/auto/Gnome2/Vte
+%attr(755,root,root) %{perl_vendorarch}/auto/Gnome2/Vte/*.so
+%{perl_vendorarch}/auto/Gnome2/Vte/*.bs
 %{_mandir}/man3/*
