@@ -57,6 +57,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc ChangeLog NEWS README
 %{perl_vendorarch}/Gnome2/Vte.pm
 %dir %{perl_vendorarch}/Gnome2/Vte
 %{perl_vendorarch}/Gnome2/Vte/Install
