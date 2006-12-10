@@ -8,12 +8,12 @@
 Summary:	Perl vte bindings
 Summary(pl):	Wi±zania vte dla Perla
 Name:		perl-Gnome2-Vte
-Version:	0.06
+Version:	0.08
 Release:	1
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	fd9e6c625b0807575d8038ff20a20d0c
+# Source0-md5:	c547adf2ed15ce223350094507b4b8a7
 URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	vte-devel >= 0.13.7
 BuildRequires:	perl-ExtUtils-Depends >= 0.205
