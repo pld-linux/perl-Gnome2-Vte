@@ -6,7 +6,7 @@
 %define		pdir	Gnome2
 %define		pnam	Vte
 Summary:	Perl vte bindings
-Summary(pl):	Wi±zania vte dla Perla
+Summary(pl.UTF-8):   WiÄ…zania vte dla Perla
 Name:		perl-Gnome2-Vte
 Version:	0.08
 Release:	1
@@ -29,8 +29,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This module provides Perl access to vte library.
 
-%description -l pl
-Ten modu³ daje dostêp z poziomu Perla do biblioteki vte.
+%description -l pl.UTF-8
+Ten moduÅ‚ daje dostÄ™p z poziomu Perla do biblioteki vte.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
