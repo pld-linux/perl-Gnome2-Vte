@@ -6,7 +6,7 @@
 %define		pdir	Gnome2
 %define		pnam	Vte
 Summary:	Perl vte bindings
-Summary(pl.UTF-8):   Wiązania vte dla Perla
+Summary(pl.UTF-8):	Wiązania vte dla Perla
 Name:		perl-Gnome2-Vte
 Version:	0.08
 Release:	1
