@@ -65,5 +65,4 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Gnome2/Vte/Install
 %dir %{perl_vendorarch}/auto/Gnome2/Vte
 %attr(755,root,root) %{perl_vendorarch}/auto/Gnome2/Vte/Vte.so
-%{perl_vendorarch}/auto/Gnome2/Vte/Vte.bs
 %{_mandir}/man3/Gnome2::Vte*.3pm*
