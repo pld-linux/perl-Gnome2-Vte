@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test" (requires DISPLAY)
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Gnome2
 %define		pnam	Vte
 Summary:	Perl vte bindings
