@@ -20,6 +20,7 @@ BuildRequires:	perl-Glib-devel >= 1.132
 BuildRequires:	perl-Gtk2-devel >= 1.133
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRequires:	vte0-devel >= 0.13.7
 Requires:	perl-Glib >= 1.132
 Requires:	perl-Gtk2 >= 1.133
