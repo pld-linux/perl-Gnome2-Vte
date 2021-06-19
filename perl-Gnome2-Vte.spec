@@ -7,12 +7,12 @@
 Summary:	Perl vte bindings
 Summary(pl.UTF-8):	Wiązania vte dla Perla
 Name:		perl-Gnome2-Vte
-Version:	0.11
-Release:	7
+Version:	0.12
+Release:	1
 License:	LGPL v2.1+
 Group:		Development/Languages/Perl
-Source0:	http://downloads.sourceforge.net/gtk2-perl/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1cb5cdfcd41873e55e923e72e64d922c
+Source0:	https://downloads.sourceforge.net/gtk2-perl/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	c1b1bc9845e7285dd015f3aa4b7e6a7a
 URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	perl-ExtUtils-Depends >= 0.205
 BuildRequires:	perl-ExtUtils-PkgConfig >= 1.07
@@ -30,8 +30,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This module provides Perl access to vte library.
 
+Note: this module is deprecated and no longer maintained.
+
 %description -l pl.UTF-8
 Ten moduł daje dostęp z poziomu Perla do biblioteki vte.
+
+Uwaga: ten moduł jest przestarzały i nie jest już utrzymywany.
 
 %package devel
 Summary:	Development files for Perl Gnome2-Vte bindings
